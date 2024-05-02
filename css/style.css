@@ -1,21 +1,26 @@
 
 body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #b10320;
 }
 
 header{
-    background-image: linear-gradient(90deg, rgb(177, 3, 32), rgb(0, 0, 0), rgb(177, 3, 32));
+    background-image: linear-gradient(90deg, #b10320, #000000, #b10320);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 350px;
 }
 
 header img {
     width: 150px;
-    border: 4px solid #ccc;
+    border: 4px solid #b10320;
     border-radius: 20px;
+}
+
+header img:hover {
+    width: 200px;
 }
 
 header nav ul li {
@@ -38,4 +43,40 @@ header nav ul li a:hover {
     background-color: #b10320;
     color: #ccc;
     transition: 1s;
+    font-style: italic;
+}
+
+.mainDiv {
+    align-items: center;
+    border-radius: 15px;
+    background-color: #000000;
+    display: flex;
+    box-shadow: 10px, 10px, 50px, #ccc;
+}
+
+.imagem {
+    margin: 25px;
+    width: 250px;
+    border-radius: 15px;
+    border: 4px solid #b10320;
+}
+
+.imagem:hover{
+    width: 300px;
+}
+
+ main h1 {
+    color: #ccc;
+    text-align: center;
+}
+
+main h1:hover{
+    font-style: italic;
+}
+
+main p {
+    padding: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: #ccc;
 }
